@@ -17,8 +17,6 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  
-  assembled_matrix = 
   [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 
   # Build an array that contains (or, "nests") the residents of The Ennet House
@@ -26,10 +24,7 @@ def assembled_matrix
 end
 
 def array_literal_matrix= 
-  ["Don Gately","Joelle van Dyne","Pat M.","Kate Gompert","Bruc Green"].sort,
-  [ "Hal Incandenza","Lyle","Gerhard Schtitt","Mario Incandenza","Michael Pemulis"].sort
-  
-  #or array_literal_matrix.sort
+  [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
   
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts

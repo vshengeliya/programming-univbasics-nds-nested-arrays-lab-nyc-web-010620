@@ -31,12 +31,12 @@ def array_literal_matrix=
   # alphabetically by the first character.
 end
 
-# def matrix_lookup(matrix, row, column) =
-#   ["Don Gately","Joelle van Dyne","Pat M.","Kate Gompert","Bruc Green"],
-#   [ "Hal Incandenza","Lyle","Gerhard Schtitt","Mario Incandenza","Michael Pemulis" ]
-#   matrix_lookup[1][1]
-#   # Return the matrix's content at row and column
-# end
+def matrix_lookup(matrix, row, column) =
+  ["Don Gately","Joelle van Dyne","Pat M.","Kate Gompert","Bruc Green"],
+  [ "Hal Incandenza","Lyle","Gerhard Schtitt","Mario Incandenza","Michael Pemulis" ]
+  matrix_lookup[1][1]
+  # Return the matrix's content at row and column
+end
 
 # def matrix_update(matrix, row, column, new_value) =
 #   ["Don Gately","Joelle van Dyne","Pat M.","Kate Gompert","Bruc Green"],

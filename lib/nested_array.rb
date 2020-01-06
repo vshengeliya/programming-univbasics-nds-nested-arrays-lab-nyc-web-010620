@@ -38,13 +38,24 @@ def matrix_lookup(matrix, row, column) =
   # Return the matrix's content at row and column
 end
 
-# def matrix_update(matrix, row, column, new_value) =
-#   ["Don Gately","Joelle van Dyne","Pat M.","Kate Gompert","Bruc Green"],
-#   [ "Hal Incandenza","Lyle","Gerhard Schtitt","Mario Incandenza","Michael Pemulis" ]
-  
-#   matrix_update[0][2]= "Tiny Ewell"
-#   matrix_update
-  
-#   # Update the matrix location at row and column to have the value of new_value
-#   # Return the updated matrix
-# end
+def matrix_lookup(matrix, row, column)
+  # Return the matrix's content at row and column
+  matrix[row][column]
+end
+
+def matrix_update(matrix, row, column, new_value)
+  # Update the matrix location at row and column to have the value of new_value
+  # Return the updated matrix
+  matrix[row][column] = new_value
+  matrix
+enddef matrix_lookup(matrix, row, column)
+  # Return the matrix's content at row and column
+  matrix[row][column]
+end
+
+def matrix_update(matrix, row, column, new_value)
+  # Update the matrix location at row and column to have the value of new_value
+  # Return the updated matrix
+  matrix[row][column] = new_value
+  matrix
+end

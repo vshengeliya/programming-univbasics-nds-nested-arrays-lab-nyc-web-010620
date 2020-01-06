@@ -23,7 +23,7 @@ def assembled_matrix
   # and the Enfield Tennis Academy as provided by the constants
 end
 
-def array_literal_matrix= 
+def array_literal_matrix
   [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
   
   # Using Array literal syntax only, build a nested array that uses the data in
